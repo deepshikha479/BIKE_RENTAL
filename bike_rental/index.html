@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zombie's Bike Rental</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#2c3e50; color:white; padding:15px; text-align:center; }
+    nav { background:#34495e; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#f39c12; }
+    .hero { background:url('bike.jpg') no-repeat center center/cover; height:400px; color:black; display:flex; align-items:center; justify-content:center; flex-direction:column; }
+    .hero h1 { font-size:48px; background:rgba(0,0,0,0.5); padding:10px; }
+    .section { padding:40px; text-align:center; }
+    .features { display:flex; justify-content:space-around; }
+    .feature { width:30%; background:#ecf0f1; padding:20px; border-radius:8px; }
+    footer { background:#2c3e50; color:white; text-align:center; padding:20px; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Zombie's Bike Rental</h1>
+    <p>Ride your adventure today!</p>
+  </header>
+
+
+  <!-- Navigation -->
+<nav>
+  <ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="bikes.php">Bikes</a></li>
+    <li><a href="rent.html">Rent</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li class="dropdown">
+      <a href="#">Account</a>
+      <ul class="dropdown-menu">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Explore the City on Two Wheels</h1>
+    <p>Affordable, eco-friendly, and fun!</p>
+    <a href="rent.html" style="background:#f39c12; padding:10px 20px; color:white; text-decoration:none; border-radius:5px;">Rent Now</a>
+  </div>
+
+  <!-- Features Section -->
+  <div class="section">
+    <h2>Our Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Easy Booking</h3>
+        <p>Reserve your bike online in just a few clicks.</p>
+      </div>
+      <div class="feature">
+        <h3>Affordable Prices</h3>
+        <p>Best rates for daily and weekly rentals.</p>
+      </div>
+      <div class="feature">
+        <h3>Eco-Friendly</h3>
+        <p>Ride green and reduce your carbon footprint.</p>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Bike Gallery Section -->
+<div class="section" id="gallery">
+  <h2>Our Bikes</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+        <img src="image/Mountain-Bike.jpg" alt="Mountain Bike">
+        <h3>Mountain Bike</h3>
+      </a>
+      <p>Perfect for off-road adventures.</p>
+    </div>
+    <div class="gallery-item">
+        <img src="image/Road-Bike.jpg" alt="Road Bike">
+        <h3>Road Bike</h3>
+      </a>
+      <p>Speed and performance on city roads.</p>
+    </div>
+    <div class="gallery-item">
+        <img src="image/Electric-Bike.jpg" alt="Electric Bike">
+        <h3>Electric Bike</h3>
+      </a>
+      <p>Eco-friendly rides with extra power.</p>
+    </div>
+  </div>
+</div>
+
+  <!-- About Us Section -->
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>Zombie's Bike Rental is your trusted partner for exploring the city. 
+       We provide high-quality bikes, easy booking, and friendly service 
+       to make your ride unforgettable.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p> Kathmandu, Nepal | +977-123456789</p>
+    <p>&copy; 2025 Zombie's Bike Rental. All rights reserved.</p>
+  </footer>
+</body>
+</html>
